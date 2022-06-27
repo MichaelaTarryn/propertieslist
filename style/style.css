@@ -25,18 +25,50 @@
     color: black!important;
   }
 
-  .grid-container {
-    display: grid;
-    gap: 50px;
-    grid-template-columns: auto auto auto;
-    background-color: #2196F3;
-    padding: 10px;
+  .card{
+    margin-top: 40px;
+    margin-left: 40px;
+    border: 2px solid black;
+    width: 350px;
+    height: 500px;
+    display: inline;
+    float: left;
+   
+}
+.card-img-top:hover{
+     opacity: 0.5;
+}
+
+.card-title:hover{
+    color:rgba(0, 174, 255, 0.56);
+
+}
+.card-img-top{
+    min-width: 150px;
+    height: 150px;
+}
+  /* .grid-item:hover{
+    opacity: 0.5;
+  } */
+
+ #footer .btn{
+    background-color :rgba(0, 174, 255, 0.56);
+    width: 150px;
+    font-size:medium;
+    height: 42px;
+    text-decoration: none;
   }
-  
-  .grid-item {
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid rgba(0, 0, 0, 0.8);
-    padding: 20px;
-    font-size: 30px;
-    text-align: center;
-  }
+  #footer .input {
+    line-height: 34px;
+}
+
+#Properties{
+background-color: brown;
+height: 300vh;
+margin-bottom: 30px;
+}
+
+.card-body .btn:hover{
+    background-color: black;
+    color: rgba(0, 174, 255, 0.56);;
+}
