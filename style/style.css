@@ -14,6 +14,7 @@
     background-color :rgba(0, 174, 255, 0.56);
     width: 100px;
     text-decoration: none;
+    margin: auto;
   }
 
   #search .btn:hover {
@@ -24,15 +25,16 @@
     background-color: rgba(0, 174, 255, 0.56);
     color: black!important;
   }
-
+ 
   .card{
     margin-top: 40px;
     margin-left: 40px;
     border: 2px solid black;
     width: 350px;
-    height: 500px;
+    height: 300px;
     display: inline;
     float: left;
+    /* position: relative; */
    
 }
 .card-img-top:hover{
@@ -43,13 +45,18 @@
     color:rgba(0, 174, 255, 0.56);
 
 }
+.card-title .btn{
+  background-color:black;
+  color: white;
+}
 .card-img-top{
     min-width: 150px;
-    height: 150px;
+    height: 250px;
+    /* position: absolute;
+  bottom: 8px;
+  left: 16px; */
 }
-  /* .grid-item:hover{
-    opacity: 0.5;
-  } */
+
 
  #footer .btn{
     background-color :rgba(0, 174, 255, 0.56);
@@ -64,11 +71,35 @@
 
 #Properties{
 background-color: brown;
-height: 300vh;
+height: 170vh;
 margin-bottom: 30px;
 }
 
+.card-title{
+  position: absolute;
+  top: 200px;
+  left: 16px;
+}
 .card-body .btn:hover{
     background-color: black;
-    color: rgba(0, 174, 255, 0.56);;
+    color: rgba(0, 174, 255, 0.56);
+}
+
+#searchbar{
+  background-color:rgb(192,192,192);
+  margin: auto;
+  width: 1110px;
+  height: 60px;
+  display: flex;
+  border-radius: 5px;
+
+}
+
+h1{
+  margin-left:40px;
+}
+#button1{
+  background-color:rgb(192,192,192);
+  width: 100px;
+  color: rgba(0, 174, 255, 0.56);
 }
